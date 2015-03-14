@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="block", KERNEL=="sd[a-z]1", RUN+="/usr/local/bin/my-mount-script.sh"
+ACTION=="remove", SUBSYSTEM=="block", KERNEL=="sd[a-z]1", RUN+="/usr/local/bin/my-unmount-script.sh"
