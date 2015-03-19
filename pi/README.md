@@ -96,7 +96,7 @@ create_keys.bat uyirnokkam
 
 This only talks about fresh installation on Pi, which is done on directly copying files on the MicroSD card.
 
-* Download the Latest OpenElec Image, created for Isha at this [url](not.yet.created)
+* Download the Latest OpenElec Image, created for Isha at this [http://ojai.rsmoorthy.net/pi/](http://ojai.rsmoorthy.net/pi/)
 * Follow the [steps](http://wiki.openelec.tv/index.php/HOW-TO:Installing_OpenELEC/Writing_The_Disk_Image#tab=Windows) to write the Image onto the MicroSD card. 
 In the steps, do not download the Image from the OpenElec site (instead the Isha specific image is already obtained from the step above)
 
@@ -107,7 +107,7 @@ Once this is done, remove the MicroSD card and insert it again. Copy the Public 
 * Please note that all Public Keys are with the extention `.enc`. In the example above, you would have got filename as `uyirnokkam.enc`
 * Unmount the MicroSD card. It can now be inserted into the RPi
 
-For the sake of simplicity, few standard keys are already created and copied on the MicroSD card
+For the sake of simplicity, few standard keys are already created and copied on the MicroSD card. 
 
 
 ### Create Encrypted Videos
