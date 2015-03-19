@@ -12,4 +12,4 @@ fi
 openssl genrsa -out $1.pem 1024
 openssl rsa -in $1.pem -pubout > $1.pub
 openssl enc -aes-256-cbc -a -in $1.pub -out $1.enc -k 2048
-openssl enc -aes-256-cbc -d -a -in $1.enc -out n.pub -k 2048
+#openssl enc -aes-256-cbc -d -a -in $1.enc -out n.pub -k 2048
